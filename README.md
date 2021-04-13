@@ -1,5 +1,5 @@
-# Predicting Human Decision-Making with Contextual Preference Learning in Magic: The Gathering
-Code and explanation for IEEE CoG paper "Predicting Human Decision-Making with Contextual Preference Learning in Magic: The Gathering"
+# Predicting Human Card Selection in Magic: The Gathering with Contextual Preference Ranking
+Code and explanation for IEEE CoG paper "Predicting Human Card Selection in Magic: The Gathering with Contextual Preference Ranking"
 
 
 # Necessary packages
