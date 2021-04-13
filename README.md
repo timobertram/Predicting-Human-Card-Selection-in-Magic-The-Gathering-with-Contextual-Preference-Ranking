@@ -19,4 +19,10 @@ If you want to reproduce our work, proceed as follows:
 
 This will run the whole training for one epoch and regularly output current process, while saving the network.
 
+# Notes
+Currently this code is only used for the previously mentioned dataset. If you want to make this work for a different dataset, here are some guidelines:
+1) If you want to run the code as is, you need to have three files: One with training data, one with testing data, and where all possible choices are visible. E.g. for this example, these are the 'training_datasets', 'test_datasets', and 'picks' folders
+2) Training and test data are triplets, where the first element is a one-hot encoding of the positive, the second is a one-hot of the negative, and the third is a representation of the anchor.  Picks are similar, but the negative examples are a list of possibilities
+3) Feel free to reach out if you have any questions
+
 
