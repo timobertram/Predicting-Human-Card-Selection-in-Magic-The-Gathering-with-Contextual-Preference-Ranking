@@ -17,7 +17,7 @@ If you want to reproduce our work, proceed as follows:
 3) Run preprocess.py with the path to the train.csv and test.csv file, e.g. "python preprocess.py Data/train.csv Data/test.csv"
 4) Run training.py. If you did not change the default values, then no additional parameters are needed.
 
-This will run the whole training for one epoch and regularly output current process, while saving the network.
+This will run the whole training for one epoch and regularly output the current progress, while saving the network.
 
 # Notes
 Currently this code is only used for the previously mentioned dataset. If you want to make this work for a different dataset, here are some guidelines:
