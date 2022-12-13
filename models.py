@@ -76,6 +76,21 @@ class Siamese(nn.Module):
             nn.Dropout(0.5),
             nn.ELU()
         )
+        self.hidden_3 = nn.Sequential(
+            nn.Linear(128,64),
+            nn.Dropout(0.5),
+            nn.ELU()
+        )
+        self.hidden_4 = nn.Sequential(
+            nn.Linear(64,32),
+            nn.Dropout(0.5),
+            nn.ELU()
+        )
+        self.hidden_5 = nn.Sequential(
+            nn.Linear(32,16),
+            nn.Dropout(0.5),
+            nn.ELU()
+        )
         self.out = nn.Sequential(
             nn.Linear(128,output_dim),
             nn.Tanh()
